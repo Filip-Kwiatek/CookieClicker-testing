@@ -107,7 +107,7 @@ const ShopMenu = (props) => {
   };
   console.log(props.quantity);
   return (
-    <ul className={classes.wrapper}>
+    <ul className={classes.wrapper} id="wrapper">
       {storeOffer.map((element, index) => (
         <MenuOption
           key={element.name}

@@ -41,7 +41,7 @@ const Cookie = ({ handleClick, boughtTimes }) => {
         }}
       />
       <span className={classes.plus}>
-        <p
+        <p id="plus"
           style={
             active
               ? {

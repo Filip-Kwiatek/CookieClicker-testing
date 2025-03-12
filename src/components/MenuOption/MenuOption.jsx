@@ -131,7 +131,7 @@ const MenuOption = (props) => {
       }
     >
       <img src={photo} alt={alt} />
-      <div className={classes.small_wrapper}>
+      <div className={classes.small_wrapper} id="wrapper">
         <p className={classes.title}>
           {name} -
           <img
@@ -143,7 +143,7 @@ const MenuOption = (props) => {
         <div className={classes.end_wrapper}>
           <p className={classes.description}>{description}</p>
           <p
-            className={classes.quantity}
+            className={classes.quantity} id="quantity"
             style={{ visibility: quantity === 0 ? "hidden" : "visible" }}
           >
             {quantity}
